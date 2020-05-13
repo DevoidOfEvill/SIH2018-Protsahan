@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">प्रोत्साहन</string>
+    <string name="read_file">इस ऐप को आपके फ़ाइल संग्रहण तक पहुंच की आवश्यकता है ताकि यह वीडियो पढ़ सके।</string>
+    <string name="image">चित्र</string>
+    <string name="upload_video">वीडियो अपलोड करें</string>
+    <string name="upload_image">चित्र अपलोड करें</string>
+    <string name="video">वीडियो</string>
+    <string name="upload_document">दस्तावेज़ अपलोड करें </string>
+    <string name="document">दस्तावेज़</string>
+    <string name="ConnectionError">कनेक्शन त्रुटि! कृपया अपने संपर्क की जांच करे और फिर से प्रयास करें</string>
+    <string name="PermissionDenied">कार्य करने के लिए इन अनुमतियों की आवश्यकता है</string>
+    <string name="edit">संपादित करें</string>
+
+
+    <string name="action_settings">समायोजन</string>
+    <string name="action_add_favourite">पसंदीदा में जोड़ें</string>
+    <string name="action_play_next">अगला प्ले करें</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="success">सफल!!</string>
+    <string name="failed"> त्रुटि! फिर से प्रयास करें</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="account_signup">लेखा रजिस्टर</string>
+    <string name="description">विवरण</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_images">मेरे चित्र</string>
+    <string name="my_videos">मेरे वीडियोज</string>
+    <string name="name">नाम</string>
+    <string name="tribe">जनजाति</string>
+    <string name="address">पता</string>
+    <string name="state">राज्य</string>
+    <string name="aadhar">आधार</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="male">पुस्र्ष</string>
+    <string name="female">महिला</string>
+    <string name="other">अन्य</string>
+    <string name="save">सुरक्षित करें</string>
+    <string name="capture_video">वीडियो ले</string>
+    <string name="capture_image"> चित्र ले</string>
+    <string name="select_document">दस्तावेज़ का चयन करें</string>
+    <string name="give_a_name_to_your_document_related_to_the_content">विषयवस्तु से संबंधित अपने दस्तावेज़ को कोई नाम दें</string>
+    <string name="give_a_name_to_your_video_related_to_the_content">विषयवस्तु से संबंधित अपने वीडियो को कोई नाम दें</string>
+    <string name="title_activity_main">मुख्य गतिविधि</string>
+    <string name="title_home">होम</string>
+    <string name="title_scheme">योजनाएं</string>
+    <string name="title_profiles">प्रोफाइल</string>
+    <string name="title_account">लेखा</string>
+    <string name="title_upload">अपलोड</string>
+
+
+    <!--Garland App-->
+    <string name="title_activity_details">विवरण गतिविधि</string>
+    <string name="answer">उत्तर</string>
+    <string name="answer_low">उत्तर</string>
+    <string name="connect">जोड़ें</string>
+    <string name="years">साल</string>
+    <string name="asked">asked</string>
+    <string name="profile">"'s Profile"</string>
+
+    <string name="details_connect">जोड़ें</string>
+    <string name="details_close">बंद करे</string>
+    <string name="details_details">विवरण</string>
+    <string name="more_info">और जानकारी</string>
+    <string name="capture_video_intruction">अपलोड करने के लिए एक वीडियो कैप्चर करे</string>
+    <string name="video_title_instruction">विषयवस्तु से संबंधित अपने वीडियो को कोई नाम दें</string>
+    <string name="image_capture_instruction">अपलोड करने के लिए एक चित्र कैप्चर करे</string>
+    <string name="image_title_instruction">विषयवस्तु से संबंधित अपने चित्र को कोई नाम दें</string>
+    <string name="download_pdf">DOWNLOAD PDF</string>
+    <string name="view_pdf">View PDF</string>
+    <string name="activity_view_profiles">View All</string>
+    <string name="my_profile">मेरी प्रोफाइल</string>
+    <string name="upload">अपलोड</string>
+    <string name="query">प्रश्न</string>
+</resources>

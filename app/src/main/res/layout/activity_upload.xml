@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upload_rel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mota.tribal.protsahan.Upload.UploadActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/navigation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/video_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="@string/video"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/video_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/give_a_name_to_your_video_related_to_the_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/capture_video"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/capture_video"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/video_upload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/video_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/upload_video"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/image_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="@string/image"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/image_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/give_a_name_to_your_video_related_to_the_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/capture_image"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/capture_image"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/image_upload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/upload_image"
+                    android:textColor="#ffffff" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/document_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="@string/document"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/doc_des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/give_a_name_to_your_document_related_to_the_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/doc_select"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/select_document"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/doc_upload"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="0.5"
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:text="@string/upload_document"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:foregroundGravity="bottom"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>

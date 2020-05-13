@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66791208086",
+    "firebase_url": "https://protsahan-8a917.firebaseio.com",
+    "project_id": "protsahan-8a917",
+    "storage_bucket": "protsahan-8a917.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66791208086:android:93727cc5dbc34970",
+        "android_client_info": {
+          "package_name": "com.mota.tribal.protsahan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66791208086-naq5ujpd8mrvvm39clrd56jue884um5h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mota.tribal.protsahan",
+            "certificate_hash": "87b206f9a00205e1a661b7a866b9b7cbb0ce0e16"
+          }
+        },
+        {
+          "client_id": "66791208086-064p8au84i30ita9fqursp2d2nfn4fmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3Q32T5frBO1t-4P__iUmhlgKCvqtbRxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66791208086-064p8au84i30ita9fqursp2d2nfn4fmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
